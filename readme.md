@@ -15,7 +15,7 @@
 
 1. Backup all settings (instructions in [JDownloader Knowledgebase](https://support.jdownloader.org/en/knowledgebase/article/backup-restore-configuration)) or simply backup the files you will replace
 1. Open JDownloader > Settings > Advanced Settings > Search for `Look and Feel Theme` > Set to `FLATLAF_DARK`
-2. Download the [`images`](./images/) folder and the folder ([rose-pine](./rose-pine/) / [rose-pine-moon](./rose-pine-moon/) / [rose-pine-dawn](./rose-pine-dawn/)) containing your preferred variant.
+2. Download the [`images`](https://github.com/moktavizen/material-darker-jdownloader/tree/main/images) folder from the Material Darker JDownloader repo and the folder ([`rose-pine`](./rose-pine/) / [`rose-pine-moon`](./rose-pine-moon/) / [`rose-pine-dawn`](./rose-pine-dawn/)) containing your preferred variant.
 3. Identify your install directory in Help > About JDownloader > Click me / Mouse over
 4. Transfer the folder/files into the following locations:
     - `images` folder to `<install-dir>/themes/standard/org/jdownloader`
