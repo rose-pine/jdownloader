@@ -1,6 +1,6 @@
 <p align="center">
     <img src="https://github.com/rose-pine/rose-pine-theme/raw/main/assets/icon.png" width="80" />
-    <h2 align="center">Rosé Pine for App</h2>
+    <h2 align="center">Rosé Pine for JDownloader 2</h2>
 </p>
 
 <p align="center">All natural pine, faux fur and a bit of soho vibes for the classy minimalist</p>
@@ -13,35 +13,31 @@
 
 ## Usage
 
-1. Open App
-2. Under settings, import `rose-pine.theme`
-3. Select `Rosé Pine` from the themes dropdown
+1. Backup all settings (instructions in [JDownloader Knowledgebase](https://support.jdownloader.org/en/knowledgebase/article/backup-restore-configuration)) or simply backup the files you will replace
+1. Open JDownloader > Settings > Advanced Settings > Search for `Look and Feel Theme` > Set to `FLATLAF_DARK`
+2. Download the [`images`](./images/) folder and the folder ([rose-pine](./rose-pine/) / [rose-pine-moon](./rose-pine-moon/) / [rose-pine-dawn](./rose-pine-dawn/)) containing your preferred variant.
+3. Identify your install directory in Help > About JDownloader > Click me / Mouse over
+4. Transfer the folder/files into the following locations:
+    - `images` folder to `<install-dir>/themes/standard/org/jdownloader`
+    - `FlatDarkLaf.json` file to `<install-dir>/cfg/laf`
+    - `flatlaf.jar` file to `<install-dir>/libs/laf`
+5. Restart JDownloader
 
 ## Gallery
 
-![Rosé Pine with App](https://user-images.githubusercontent.com/1474821/166155319-06796439-95a7-4aea-910e-927c1f24518e.png)
+**Rosé Pine**
+
+![Rosé Pine with Jdownloader 2](https://github.com/user-attachments/assets/f2e7be3d-119a-42f2-8d34-a7c4b70fc030)
+
+**Rosé Pine Moon**
+
+![Rosé Pine Moon with Jdownloader 2](https://github.com/user-attachments/assets/2d15d17f-f0d1-454b-811a-4d9aa565d45d)
+
+**Rosé Pine Dawn**
+
+![Rosé Pine Dawn with Jdownloader 2](https://github.com/user-attachments/assets/4dae9cbd-76f3-45dc-9754-3e486eb81dd0)
 
 ## Thanks to
 
-- [You, it's you!](https://github.com/<username>)
-
-## Contributing
-
-> Prefer using [@rose-pine/build](https://github.com/rose-pine/build) when possible
-
-Modify `template.json` using Rosé Pine variables, then build variants:
-
-```sh
-npx @rose-pine/build@latest
-```
-
-## Style guide
-
-> Be sure to remove this section 😌
-
-- Lowercase meta files, eg. `readme.md`
-- Repo name should be the simplest version of the app name, eg. iterm instead of iTerm2
-- Add a description and topics to automatically show the theme on [rosepinetheme.com/themes](https://rosepinetheme.com/themes)
-    - Description should read "Soho vibes for App" where "App" is the display name
-    - Topics should include [existing categories](https://rosepinetheme.com/themes)
-    - Generate and upload social image via [Rosé Pine Images](https://rose-pine-images.vercel.app)
+- [darkthemer](https://github.com/darkthemer)
+- [moktavizen](https://github.com/moktavizen) (used [Material Darker JDownloader](https://github.com/moktavizen/material-darker-jdownloader) as template file)
